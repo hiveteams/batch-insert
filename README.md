@@ -1,3 +1,6 @@
+# NOTE: Temporary package
+Created because mikowals:batch-insert incompatible version constraint with Meteor 1.7. If it's ever updated, use that instead. Given usage, probably better to replace with native mongo driver insertMany + simple write fence.
+
 ##If you find this package useful consider commenting on the https://github.com/meteor/meteor/issues/1255 to get bulk insert support directly in Meteor core.
 
 
@@ -10,7 +13,7 @@ Meteor package enabling mongo driver insert of multiple documents.
 
 In your meteor app directory run:
 
-    meteor add mikowals:batch-insert
+    meteor add hiveteams:batch-insert
 
 #Usage
 
